@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Pedro Victor - Home</title>
+    <title>List</title>
 
 <!--
 <script type="text/javascript">
@@ -26,10 +26,7 @@
 </script>
 //-->
 
-</html>
 
-
-  <body>
 
     <style>
     .icon-bar {
@@ -80,7 +77,7 @@
       }
       .jumbotron {
         color: #fff;
-        padding: 100px 25px;
+        padding: 5px 0px;
         font-family: Montserrat, sans-serif;
       }
       .container-fluid {
@@ -233,11 +230,11 @@
         .logo {
           font-size: 150px;
         }
-      }.overlay { position: absolute; }
-    </style>
+      }.overlay { position: absolute; }</style>
 
+  </head>
 
-
+<body>
 
 
   <nav class="navbar navbar-inverse">
@@ -246,15 +243,65 @@
      </div>
      <ul class="nav navbar-nav">
        <li><a href="index.html">Home</a></li>
-       <li class="active"><a href="news.html">News</a></li>
+       <li><a href="news.html">News</a></li>
        <li><a href="philosophy.html">Philosophy</a></li>
+       <li class="active"><a href="list">Courses</a></li>
        <li><a href="donate.html">Donate</a></li>
      </ul>
    </div>
  </nav>
 
 
-  </head>
+
+ <div class="container-fluid">
+   <div class="row">
+       <div class="row slideanim">
+           <div class="thumbnail">
+             <a href="introduction_physics">
+             <img href="einstein.html" style="max-width:840px; max-height:400px; float:middle" src="images/host_android_einstein/earthphysics_1.gif"></img>
+             </a>
+             <h4 style="text-align:center">Introduction to Physics</h4>
+           </div>
+       </div>
+       <br>
+       <div class="row slideanim">
+           <div class="thumbnail">
+             <a href="introduction_geometry">
+             <img href="" style="max-width:840px; max-height:400px; float:middle" src="images/host_android_einstein/geometry.gif"></img>
+             </a>
+             <h4 style="text-align:center">Introduction to Geometry</h4>
+         </div>
+       </div>
+       <br>
+       <div class="row slideanim">
+           <div class="thumbnail">
+             <a href="introduction_philosophy">
+             <img href="philosophy.html" style="max-width:840px; max-height:400px; float:middle" src="images/host_android_einstein/philosophersphilosophy.gif"></img>
+             </a>
+             <h4 style="text-align:center">Introduction to Philosophy</h4>
+           </div>
+       </div>
+       <br>
+       <div class="row slideanim">
+           <div class="thumbnail">
+             <a href="introduction_history">
+             <img href="" style="max-width:840px; max-height:400px; float:middle" src="images/host_android_einstein/historyheader.gif"></img>
+             </a>
+             <h4 style="text-align:center">Introduction to History</h4>
+           </div>
+       </div>
+       <br>
+       <div class="row slideanim">
+         <div class="thumbnail">
+           <a href="introduction_python">
+             <img style="max-width:840px; max-height:400px; float:middle" src="images/host_android_einstein/"></img>
+             </a>
+             <h4 style="text-align:center">Introduction to Python</h4>
+           </div>
+       </div>
+       </div>
+ </div>
+
 
 <script type="text/javascript">
 var $container = $(".container");
@@ -268,31 +315,21 @@ $container.css("overflow", "hidden");
 
 <br>
 
+
 <div class="container">
   <div class="row slideanim">
-<div class="jumbotron text-center">
-  <h1 style="color:black">News</h1>
+  <h1 style="color:black">Classes</h1>
   <h4 style="margin-left:10px; margin-right:10px;">
       #About This# </h4>
       </div>
-  </div>
 </div>
 
 
-
-
-  <div class="icon-bar" style="margin-top:75px">
-    <div class="row slideanim">
-    <a href="https://www.instagram.com/pedrovictorcoding/" class="instagram" style="margin-left:10px; float:middle"><i class="fa fa-instagram"></i></a>
-    <a href="#" class="youtube" style="margin-left:10px; float:middle"><i class="fa fa-youtube"></i></a>
-    </div>
-  </div>
-
-
+<!--
 <footer class="container-fluid text-center" style="background-color:#5F7ADD">
   <h4 style="color:white">Website by Pedro Victor</h4>
 </footer>
-
+-->
 
 
 <script>
